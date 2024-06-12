@@ -39,10 +39,18 @@ form {
 .btn {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 30px;
+  gap: 20px;
 }
 button {
   width: 200px;
   height: 50px;
   background-color: darksalmon;
+  border-radius: 25px;
+}
+input {
+  border-radius: 5px;
+  border-color: black;
 }
